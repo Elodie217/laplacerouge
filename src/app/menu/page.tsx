@@ -18,7 +18,6 @@ const Menu = () => {
   return (
     <main className="font-sans">
       <Navbar></Navbar>
-
       <PhotoHeader title={"Menus"}></PhotoHeader>
 
       {menus &&

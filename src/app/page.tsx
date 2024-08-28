@@ -183,9 +183,12 @@ export default function Home() {
       </div>
 
       <div className="flex items-center my-8">
-        <button className=" bg-black rounded-lg text-white px-4 py-3 shadow-lg text-xl w-fit m-auto">
+        <a
+          href="#divReservation"
+          className=" bg-black rounded-lg text-white px-4 py-3 shadow-lg text-xl w-fit m-auto"
+        >
           Réserver une table
-        </button>
+        </a>
       </div>
 
       <div className="flex items-center justify-around w-11/12 m-auto">
@@ -204,7 +207,12 @@ export default function Home() {
       {/* Partie Réservation */}
 
       <section className="my-10">
-        <h2 className="text-5xl font-bold text-center mb-5">Réservation</h2>
+        <h2
+          id="divReservation"
+          className=" text-5xl font-bold text-center mb-5"
+        >
+          Réservation
+        </h2>
 
         <section className="my-4 md:flex justify-center items-center space-x-20">
           {/* Partie gauche */}

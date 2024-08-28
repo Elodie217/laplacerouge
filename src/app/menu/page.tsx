@@ -40,6 +40,7 @@ const Menu = () => {
                     );
                   })}
               </div>
+              <div className="w-2/3 bg-[#FF7070] h-1 rounded-lg m-auto mb-5"></div>
             </section>
           );
         })}
